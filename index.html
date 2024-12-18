@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My ePortfolio</title>
+  <!-- Link to Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&family=Oswald:wght@400;600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to My ePortfolio</h1>
+    <img src="https://via.placeholder.com/150" alt="Profile Photo" id="profile-photo">
+    <p>Hello! I'm [Your Name]. I'm passionate about coding and creating awesome projects!</p>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a beginner in web development with skills in HTML, CSS, and JavaScript. I love solving problems and building creative solutions.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1: Portfolio Website</h3>
+      <p>This is a simple portfolio built with HTML, CSS, and JavaScript.</p>
+      <a href="https://github.com/yourusername/project1" target="_blank" rel="noopener">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>Project 2: Calculator App</h3>
+      <p>A simple calculator built with JavaScript.</p>
+      <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>Project 3: Todo List</h3>
+      <p>A task management app to boost productivity.</p>
+      <a href="https://github.com/yourusername/project3" target="_blank" rel="noopener">View on GitHub</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/mnqwqrle" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2024 My ePortfolio</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

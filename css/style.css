@@ -1,0 +1,84 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF6E3; /* Soft Yellow Background */
+    color: #333; /* Neutral text color for readability */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #BFECFF; /* Light Blue header */
+    color: white;
+    font-family: 'Lexend', sans-serif; /* Lexend font for header */
+    font-weight: bold; /* Bold text for the header */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+#profile-photo {
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+    width: 150px; /* Ensure consistent size */
+    height: 150px; /* Ensure consistent size */
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: #CDC1FF; /* Lavender section background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+section h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #BFECFF; /* Light Blue heading */
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #FFCCEA; /* Light Pink footer background */
+    color: #333;
+}
+
+/* Button Styling */
+button {
+    background: #BFECFF; /* Light Blue button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: #CDC1FF; /* Lavender hover effect */
+}
+
+/* Form Inputs */
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input:focus, textarea:focus {
+    border-color: #BFECFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(191, 236, 255, 0.5);
+}
