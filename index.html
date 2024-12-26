@@ -1,69 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My ePortfolio</title>
-  <!-- Link to Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&family=Oswald:wght@400;600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <!-- Link to CSS -->
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honey Pearl G. Quinto - Profile</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- Header Section -->
-  <header>
-    <h1>Welcome to My ePortfolio</h1>
-    <img src="https://via.placeholder.com/150" alt="Profile Photo" id="profile-photo">
-    <p>Hello! I'm [Your Name]. I'm passionate about coding and creating awesome projects!</p>
-  </header>
+    <!-- 🎯 Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am a beginner in web development with skills in HTML, CSS, and JavaScript. I love solving problems and building creative solutions.</p>
-  </section>
+    <!-- 🎯 Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hello Everyone, I Am <span class="name">Honey Pearl G. Quinto</span></h1>
+                <p class="intro">
+                    I am a third-year Computer Science major with a passion for creativity and problem-solving.
+                    I develop projects in Python, C++, and recently built a functional donation app.
+                </p>
+            </div>
+            <div class="hero-image">
+                <img src="photo/profile.jpg" alt="Honey Pearl G. Quinto" class="profile-img">
+            </div>
+        </div>
+    </header>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Project 1: Portfolio Website</h3>
-      <p>This is a simple portfolio built with HTML, CSS, and JavaScript.</p>
-      <a href="https://github.com/yourusername/project1" target="_blank" rel="noopener">View on GitHub</a>
-    </div>
-    <div class="project">
-      <h3>Project 2: Calculator App</h3>
-      <p>A simple calculator built with JavaScript.</p>
-      <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener">View on GitHub</a>
-    </div>
-    <div class="project">
-      <h3>Project 3: Todo List</h3>
-      <p>A task management app to boost productivity.</p>
-      <a href="https://github.com/yourusername/project3" target="_blank" rel="noopener">View on GitHub</a>
-    </div>
-  </section>
+    <!-- 🎯 About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            I am a third-year Computer Science major with a deep passion for creativity and problem-solving. Throughout my journey, I have honed my skills through projects in Python and C++, and I’ve recently developed a functional donation app—though it remains a work in progress.
+        </p>
+        <p>
+            Driven by a desire to design and build innovative solutions, I am eager to create projects that leave a meaningful impact on the world. When I’m not immersed in my studies or coding, I enjoy spending time with my dog and exploring new ideas that inspire me to push the boundaries of what’s possible.
+        </p>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <form action="https://formspree.io/f/mnqwqrle" method="POST">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
+    <!-- 🎯 Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Selected Work</h2>
+        <div class="projects-container">
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
+            <!-- Project 1: Link'n'Give -->
+            <div class="project-card">
+                <h3>Link’n’Give (Donating App)</h3>
+                <div class="project-images">
+                    <img src="photo/linkngive-snap1.jpg" alt="Link'n'Give Snapshot 1" class="project-image">
+                    <img src="photo/linkngive-snap2.jpg" alt="Link'n'Give Snapshot 2" class="project-image">
+                    <img src="photo/linkngive-snap3.jpg" alt="Link'n'Give Snapshot 3" class="project-image">
+                </div>
+                <a href="https://github.com/honeypearlq/linkngive.git" class="btn">Open Link</a>
+            </div>
 
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
+            <!-- Project 2: To-Do List -->
+            <div class="project-card">
+                <h3>To-Do List</h3>
+                <div class="project-images">
+                    <img src="photo/todolist-snap1.png" alt="To-Do List Snapshot 1" class="project-image">
+                    <img src="photo/todolist-snap2.png" alt="To-Do List Snapshot 2" class="project-image">
+                    <img src="photo/todolist-snap3.png" alt="To-Do List Snapshot 3" class="project-image">
+                </div>
+                <a href="https://github.com/honeypearlq/Simple-ToDo-List.git" class="btn">Open Link</a>
+            </div>
 
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
+            <!-- Project 3: Calculator -->
+            <div class="project-card">
+                <h3>Calculator</h3>
+                <div class="project-images">
+                    <img src="photo/calculator-snap1.png" alt="Calculator Snapshot 1" class="project-image">
+                    <img src="photo/calculator-snap2.png" alt="Calculator Snapshot 2" class="project-image">
+                    <img src="photo/calculator-snap3.png" alt="Calculator Snapshot 3" class="project-image">
+                </div>
+                <a href="https://github.com/honeypearlq/CalculatorApp.git" class="btn">Open Link</a>
+            </div>
 
-  <footer>
-    <p>© 2024 My ePortfolio</p>
-  </footer>
+        </div>
+    </section>
 
-  <script src="js/script.js"></script>
+    <!-- 🎯 GitHub Section -->
+    <section id="github" class="github">
+        <h2>GitHub Account</h2>
+        <p>Click below to view my GitHub account and explore my projects.</p>
+        <a href="https://github.com/honeypearlq" target="_blank" rel="noopener" class="btn">Visit GitHub</a>
+    </section>
+
+    <!-- 🎯 Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/mnqwqrle" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- 🎯 Footer -->
+    <footer>
+        <p>© 2024 Honey Pearl G. Quinto. All Rights Reserved.</p>
+    </footer>
+
+    <!-- 🎯 JavaScript -->
+    <script src="js/script.js"></script>
 </body>
 </html>
