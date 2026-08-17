@@ -12,7 +12,5 @@ This is my personal ePortfolio showcasing my skills, projects, and contact infor
 - HTML5
 - CSS3
 - JavaScript
-- [Formspree](https://formspree.io/) for contact form submission
 
-## Deployment
-Deployed on GitHub Pages: (https://<your-username>.github.io/ePortfolio)
+
